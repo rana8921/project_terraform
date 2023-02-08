@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "digipunebucketaws" {
+resource "aws_s3_bucket_versioning" "digipunebucketaws" {
   bucket_prefix = var.bucket_prefix
   acl = var.acl
   
